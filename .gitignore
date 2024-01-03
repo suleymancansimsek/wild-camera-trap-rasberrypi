@@ -1,3 +1,6 @@
 #to keep your Firebase details private
 #create your own config.py file on root directory
 config.py
+
+#firebase json file
+*.json
