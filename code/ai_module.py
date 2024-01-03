@@ -3,7 +3,7 @@ import numpy as np
 import tensorflow as tf
 from PIL import Image
 
-model_path = 'your-ai-model.tflite' #this is important : train your ai and include in project
+model_path = 'ai/vww_96_grayscale_quantized.tflite' #this is important : train your ai and include in project if you want
 
 interpreter = tf.lite.Interpreter(model_path=model_path)
 interpreter.allocate_tensors()
